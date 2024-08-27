@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+nav {
+  font-family: "Fira code", sans-serif;
+}
+
+nav a {
+  color: white;
+}
+
+.contact {
+  font-family: "Fira code", sans-serif;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03346e;
+  height: 70px;
+  padding: 0px 20px;
+}
+
+.logo {
+  font-family: "revalia";
+}
+
+.contact {
+  padding: 11px;
+  background-color: #021526;
+  border-radius: 30px;
+}
+
+.contact:hover {
+  background-color: black;
+  border: 1px solid #6eacda;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #6eacda;
+  height: 75px;
+  padding: 0px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.social {
+  padding-left: 10px;
+}
+
+.main {
+  display: flex;
+  height: 538px;
+  width: 100%;
+  align-items: center;
+  padding: 100px;
+  justify-content: center;
+  font-family: fira code;
+}
+
+.content-box {
+  background-color: skyblue;
+  width: 500px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+  border-radius: 20px;
+  align-items: center;
+  border: 1px solid #021526;
+}
+
+.content {
+  padding: 25px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.btn-box {
+  padding-top: 80px;
+  padding-right: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.back-btn {
+  padding: 10px;
+  background-color: #021526;
+  border-radius: 30px;
+  color: white;
+  margin-left: -50px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.more-btn {
+  margin-right: -395px;
+  padding: 10px;
+  background-color: #021526;
+  border-radius: 30px;
+  color: white;
+}
+
+.next-btn:hover {
+  background-color: black;
+  border: 1px solid #021526;
+}
